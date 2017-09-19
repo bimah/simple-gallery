@@ -1,0 +1,17 @@
+@import '../../common';
+
+.container {
+  background-color: $white;
+  border: 1px solid $black;
+  padding: 10px;
+
+  .text {
+    height: 50px;
+    margin: 15px 0;
+
+    p {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}

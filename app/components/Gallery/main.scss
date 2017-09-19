@@ -1,0 +1,20 @@
+.container {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 100%;
+
+  .title {
+    text-align: center;
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}

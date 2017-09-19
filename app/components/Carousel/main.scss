@@ -1,0 +1,60 @@
+@import '../common';
+
+.container {
+  position: relative;
+  width: 100%;
+
+  .display {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+  }
+
+  .slides--container {
+    transition: all 1s ease-in-out;
+
+    .slide {
+      display: inline-block;
+      margin: 10px 0;
+
+      .item {
+        display: inline-block;
+        margin: 10px;
+      }
+    }
+  }
+
+  .navigation {
+    display: block;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 10%;
+
+    button {
+      display: block;
+      height: 40px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40px;
+    }
+
+    &.left {
+      left: 0;
+
+      button {
+        left: calc(50% - 20px);
+      }
+    }
+
+    &.right {
+      right: 0;
+
+      button {
+        right: calc(50% - 20px);
+      }
+    }
+  }
+}
